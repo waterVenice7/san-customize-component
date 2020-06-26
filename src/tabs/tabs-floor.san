@@ -1,0 +1,23 @@
+<template>
+    <div class='tabs-floor'>
+        <span>{{sss}}</span>
+    </div>
+</template>
+<script>
+export default {
+    initData(){
+        return {
+            sss:1
+        }
+    }
+}
+</script>
+<style lang="less" scoped>
+.tabs-floor{
+    >span{
+        color:olive
+    }
+}
+</style>
+
+
